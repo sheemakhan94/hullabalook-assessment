@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Big Shoulders Display', cursive;
+  text-transform: uppercase;
+
+}
+
+body {
+  margin: 0;
+  font-family: 'Courier New'
+}
+
+.title {
+  text-align: center;
+  height: 250px;
+  font-size: 80px;
+  padding-top: 75px;
+  letter-spacing: 1.5px;
+  color: white;
+  background: black;
+}
+
+.subtitle {
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+#app {
+  margin: 0 auto;
+  width: 100%;
+  font-size: 24px;
+}
+
+#app > * {
+  margin: 0 auto;
+  text-align: center;
+}
+
+button {
+  display: block;
+  padding: 9px 16px;
+  font-size: 35px;
+  cursor: pointer;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  color: white;
+}
+
+button.start, button.stop {
+  background: black;
+}
+
+
+.game {
+  width: 80%;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center
+}
+
+.game > div {
+  width: 45%;
+  height: 45%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
+
+.game > div:hover {
+  background-color: black;
+}
+
+#brand-tiles {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 80%;
+}
+
+
+li {
+  text-align: center;
+  font-size: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 20%;
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: black;
+  color: white;
+}
+
+#instructions h1 {
+  text-align: center;
+}
+
+#instructions {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#instructions .image {
+  width: 100%
+}
+
+#instructions .image > img {
+  width: 100%;
+}
