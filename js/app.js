@@ -6,18 +6,18 @@ var app = new Vue({
       isActive: false,
       hasWon: false,
       seconds: 0,
-      // tilesClicked: []
+      tilesClicked: []
     }
   },
 
   methods: {
     start() {
-      this.isActive = true;
+      this.isActive = true
       this.startTimer()
     },
     startTimer() {
       let timer = setInterval(() => {
-        this.seconds += 1;
+        this.seconds += 1
       }, 1000)
     },
     handleTileClick(tile) {

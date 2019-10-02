@@ -20,14 +20,14 @@
 
       <div class="controls">
         <button class="start" v-if="!isActive" @click="start">Take the quiz</button>
-        <button class="stop" v-if="isActive" @click="stop">Stop</button>
+        <button class="stop" v-if="isActive" @click="stop">Reset</button>
         <div class="counter" v-if="isActive">{{ seconds }}</div>
       </div>
 
       <div class="game" id="game">
         <tile
-          v-for="item in images"
-          v-bind:image="item"
+          v-for="item in products"
+          v-bind:product="item"
           v-bind:src="item.url"
 
          ></tile>
