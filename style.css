@@ -68,6 +68,11 @@ button.start, button.stop {
   cursor: pointer;
 }
 
+img {
+  width: 40%;
+  max-height: 100%;
+}
+
 .game > div:hover {
   background-color: black;
 }

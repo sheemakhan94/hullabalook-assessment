@@ -6,7 +6,7 @@ var app = new Vue({
       isActive: false,
       hasWon: false,
       seconds: 0,
-      tilesClicked: []
+      // tilesClicked: []
     }
   },
 
